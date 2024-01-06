@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+  <body onload="preLoader()">
+    
+    <!--==================== HEADER ====================-->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link hover-underline">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link hover-underline">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link hover-underline">
+                <i class="uil uil-file-alt nav__icon"></i>Projects
+              </a>
+            </li>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link hover-underline">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <a
+          target="_blank"
+            class="resume-button"
+            href="./src/resume/Burhano.pdf"
+            >Resume</a
+          >
+        </div>
+        <div class="nav__btns">
+          <i
+            class="uil uil-moon change-theme"
+            style="margin-left: 10px"
+            id="theme-button"
+            title="Theme"
+          ></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+
+    <main class="main">
+
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+
+              <!-- linkedin -->
+              <a
+                href="https://www.linkedin.com/in/muhammed-burhan/"
+                target="_blank"
+                class="home__social-icon"
+                title="Linkedin"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <!-- github -->
+              <a
+                href="https://github.com/Bur7an"
+                target="_blank"
+                class="home__social-icon"
+                title="GitHub"
+              >
+                <i class="uil uil-github-alt"></i>
+
+              </a>
+
+              <!-- twitter -->
+              <a
+                href="https://twitter.com/BurBur7an"
+                target="_blank"
+                class="home__social-icon"
+                title="Twitter"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a>
+
+              <!-- instagram -->
+              <a
+                href="https://www.instagram.com/m_burhanxz/"
+                target="_blank"
+                class="home__social-icon"
+                title="Instagram"
+              >
+                <i class="uil uil-instagram-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__data">
+              <span style="font-size: 16px">Hey there 👋, my name is</span>
+              <h1 class="home__title">Muhammed Burhan</h1>
+              <h3 class="home__subtitle">"AI Enthusiast"</h3>
+              <p class="home__description">
+                I am a dedicated Computer Science student with an unwavering commitment to making a positive and meaningful impact within the tech community. My passion for tech fuels my drive for constant growth and innovation, propelling me toward impactful contributions in the field. 
+              </p>
+              <a
+                href="#contact"
+                class="button button--flex home__button"
+                title="Contact me"
+              >
+                Contact Me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img
+            src="src/pics/pfp2.jpg"
+            alt="Burhan's image"
+            class="about__img"
+          />
+          <div class="about__data">
+            <p class="about__description">
+              An eager, determined, and adaptable computer science student with a passion for embracing new challenges. Unafraid to step into the unknown, I'm fueled by a curiosity that propels me forward. My fascination with AI and machine learning drives my desire to make a meaningful impact in the tech industry.
+            </p>
+            <p class="about__description" style="margin-top: -30px">
+              Just as a canvas awaits an artist's touch, I see the vast potential within the realm of technology. From mastering the intricacies of coding to unraveling complex algorithms, I am dedicated to honing my skills in pursuit of excellence.
+            </p>
+            
+            <div class="about__buttons">
+              <a
+              target="_blank"
+                href="./src/resume/Burhano.pdf"
+                class="button button--flex"
+                >Resume<i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATIONS ====================-->
+
+      <section class="qualification__section">
+        <h2 class="section__title">Work Experience</h2>
+        <span class="section__subtitle">My journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Bachelors in Computer Science
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Carleton University, Ottawa, Canada</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Sep 2022 - Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+
+            <div class="qualification__content" data-content id="work">
+
+              <!--==================== Work 1 ====================-->
+
+              <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">Sales Representative</h3>
+                    <span class="qualification__subtitle"
+                      >TSM - Sales Representative - Ottawa, ON</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="uil uil-calendar-alt"></i>
+                      Apr 2022 - Jul 2022
+                    </div>
+                  </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== Work 2 ====================-->
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">High School Mathematics Tutor</h3>
+                  <span class="qualification__subtitle"
+                    >Remote- Ottawa, ON</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    June 2021 - Present
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technologies</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills__content skills__open">
+              <div class="skills__list grid">
+                <div class="tech__row">
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:java"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">Java<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:python"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Python<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: #65b743"
+                        icon="logos:javascript"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Javascript<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-html"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">HTML<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:intellij-idea"
+                        height="40"
+                        width="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">IntelliJ<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="bxl:c-plus-plus"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">C++<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-css"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">CSS<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="simple-icons:react"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">React<br /></h3>
+                    </div>
+                  </div>
+
+
+                  <!-- tools -->
+
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: #e84d31"
+                        icon="file-icons:latex"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Latex<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: grey"
+                        icon="mdi:language-c"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">C<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-vscode"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">VsCode<br /></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Projects ====================-->
+
+      <section class="services section" id="projects" style="margin-top: 50px">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Some of my work</span>
+
+        <div class="services__container container grid">
+
+          <!--==================== Project 1 ====================-->
+
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./src/pics/ghost.jpg"
+                  alt="Ghost"
+                  title="GhostBusters"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">GhostBusters</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  A program that estimates the likelihood of a specific ghost being in a room using a variety of data structures, like linked lists for dynamic data management.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  C &nbsp;| Ubuntu Linux &nbsp;|&nbsp; Visual Studio Code &nbsp;
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://github.com/Bur7an/GhostBusters"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-github button__icon"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+            <!--==================== Project 2 ====================-->
+  
+            <div class="services__content">
+              <div class="portfolio-projects">
+                <div class="project-img">
+                  <img
+                    src="./src/pics/dijkstra.png "
+                    alt="dijkstra"
+                    title="dijkstra"
+                  />
+                </div>
+                <div class="project-title">
+                  <h3 class="title" title="Title">Algorithm Visualizer</h3>
+                </div>
+                <div class="project-desc">
+                  <p title="Details">
+                    Dijkstra's algorithm visualizer using Python and Pygame, allowing users to observe the step-by-step process of finding the shortest path in a graph.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <p title="Tech Stack">
+                    Python &nbsp;| Pygame &nbsp;|&nbsp; Visual Studio Code &nbsp;
+                  </p>
+                </div>
+                <div class="action-area">
+                  <a
+                    class="project-action"
+                    href="https://github.com/Bur7an/Dijkstra-Pathfinding-Visualizer"
+                    title="Source Code"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="uil uil-github button__icon"></i>
+                    GitHub
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <!--==================== Project 3 ====================-->
+
+        <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./src/pics/k.png"
+                  alt="Puzzlify-Pro"
+                  title="Puzzlify-Pro"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Puzzlify-Pro</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  An Interactive app enabling users to solve puzzles by dragging words on a canvas with their mouse. User's can add any puzzle they want to the app making it a fun and interactive experience.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Javascript &nbsp;| HTML, CSS, Node.js &nbsp;|&nbsp; Visual Studio Code  &nbsp;
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://github.com/Bur7an/Puzzlify-Pro"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-github button__icon"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-linkedin-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://www.linkedin.com/in/muhammed-burhan/"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open linkedin"
+                >
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contatc__subtitle">@Muhammed-burhan</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://github.com/Bur7an"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open github"
+                >
+                  <h3 class="contact__title">GitHub</h3>
+                  <span class="contact__subtitle">@Bur7an</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-phone-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="tel:4384929433"
+                  style="color: #6a797c"
+                  title="click to make a call"
+                >
+                  <h3 class="contact__title">Cell Phone</h3>
+                  <span class="contatc__subtitle">+1(438)492-9433</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <a
+                  class="hover-underline"
+                  href="mailto:mail.muhammedbur7an@gmail.com"
+                  style="color: #6a797c"
+                  title="click to send email"
+                >
+                  <h3 class="contact__title">Gmail</h3>
+
+                  <span class="contatc__subtitle"
+                    >muhammedbur7an@gmail.com</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <p class="footer__copy">
+          Muhammed Burhan
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
