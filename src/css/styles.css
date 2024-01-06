@@ -592,7 +592,7 @@ img {
 }
 
 
-/*==================== SKILLS ====================*/
+/*==================== SKILLS SECTION ====================*/
 .tech__row {
   display: flex;
   gap: 20px;
@@ -621,7 +621,7 @@ img {
   row-gap: 0;
 }
 
-/*==================== Project ====================*/
+/*==================== PROJECT SECTION ====================*/
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(1, 1fr);
@@ -727,7 +727,7 @@ img {
 }
 
 
-/*==================== projects ====================*/
+/*==================== PROJECTS SECTION ====================*/
 
 .project-desc {
   flex-wrap: wrap;
@@ -1426,7 +1426,7 @@ form textarea {
   }
 }
 
-/* For 4K devices */
+/* 4K devices */
 @media screen and (min-width: 2160px) {
   .calendar {
     width: 40%;
